@@ -1,0 +1,31 @@
+.cartContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 400px;
+  background-color: moccasin;
+}
+
+.cartContent {
+  padding: 20px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.sign {
+  /* font-weight: bold; */
+  font-size: 24px;
+  cursor: default;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 680px) {
+  .cartContainer {
+    width: 100%;
+  }
+}
